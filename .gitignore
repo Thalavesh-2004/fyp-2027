@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.pytest_cache/
+
+# Spark runtime & temporary output
+checkpoints/
+logs/
+*.log
+output/streaming/
+output/experiments.db
+
+# Keep figures and dashboard tracked in repository
+!output/figures/
+!output/figures/*.png
+!dashboard/index.html
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

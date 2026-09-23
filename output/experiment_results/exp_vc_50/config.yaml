@@ -1,0 +1,25 @@
+attack:
+  corruption:
+    strategy: additive
+    value: 50.0
+  enabled: true
+  probability: 0.5
+  target_workers: []
+  type: VALUE_CORRUPTION
+experiment:
+  duration_seconds: 60
+  id: exp_vc_50
+  name: Value Corruption Attack (50%)
+  random_seed: 42
+  records: 10000
+  worker_count: 3
+producer:
+  events_per_second: 500
+  random_seed: 42
+  sensor_count: 5
+  total_events: 10000
+stream:
+  bootstrap_servers: localhost:29092
+  kafka_topic: sensor-stream
+  spark_master: local[*]
+  trigger_interval_ms: 1000

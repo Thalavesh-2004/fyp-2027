@@ -1,0 +1,20 @@
+stream:
+  kafka_topic: sensor-stream
+  bootstrap_servers: localhost:29092
+  spark_master: local[*]
+  trigger_interval_ms: 1000
+  checkpoint_dir: output/checkpoints
+  output_dir: output/streaming
+
+producer:
+  events_per_second: 500
+  total_events: 10000
+  sensor_count: 5
+  random_seed: 42
+  temperature_min: 15.0
+  temperature_max: 45.0
+  humidity_min: 30.0
+  humidity_max: 90.0
+
+database:
+  db_path: output/experiments.db

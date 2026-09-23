@@ -1,0 +1,24 @@
+attack:
+  drop:
+    probability: 0.2
+  enabled: true
+  probability: 0.2
+  target_workers: []
+  type: DROP_COMPUTATION
+experiment:
+  duration_seconds: 60
+  id: exp_drop_20
+  name: Drop Computation Attack (20%)
+  random_seed: 42
+  records: 10000
+  worker_count: 3
+producer:
+  events_per_second: 500
+  random_seed: 42
+  sensor_count: 5
+  total_events: 10000
+stream:
+  bootstrap_servers: localhost:29092
+  kafka_topic: sensor-stream
+  spark_master: local[*]
+  trigger_interval_ms: 1000

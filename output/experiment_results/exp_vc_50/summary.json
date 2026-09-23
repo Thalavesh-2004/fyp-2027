@@ -1,0 +1,18 @@
+{
+  "experiment_id": "exp_vc_50",
+  "total_input_records": 10000,
+  "total_output_records": 10000,
+  "correct_results": 0,
+  "incorrect_results": 5,
+  "attack_attempts": 4990,
+  "successful_attacks": 5,
+  "corruption_rate": 1.0,
+  "throughput_records_per_second": 88537.3,
+  "average_latency_ms": 9.23,
+  "p95_latency_ms": 11.13,
+  "total_processing_time_ms": 112.95,
+  "experiment_name": "Value Corruption Attack (50%)",
+  "attack_type": "VALUE_CORRUPTION",
+  "attack_probability": 0.5,
+  "input_rate": 500
+}

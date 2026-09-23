@@ -1,0 +1,18 @@
+{
+  "experiment_id": "exp_delay_20",
+  "total_input_records": 10000,
+  "total_output_records": 10000,
+  "correct_results": 5,
+  "incorrect_results": 0,
+  "attack_attempts": 2031,
+  "successful_attacks": 0,
+  "corruption_rate": 0.0,
+  "throughput_records_per_second": 17721.55,
+  "average_latency_ms": 102.39,
+  "p95_latency_ms": 403.22,
+  "total_processing_time_ms": 564.28,
+  "experiment_name": "Delay Attack (20%)",
+  "attack_type": "DELAY",
+  "attack_probability": 0.2,
+  "input_rate": 500
+}

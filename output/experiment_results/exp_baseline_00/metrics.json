@@ -1,0 +1,14 @@
+{
+  "experiment_id": "exp_baseline_00",
+  "total_input_records": 10000,
+  "total_output_records": 10000,
+  "correct_results": 5,
+  "incorrect_results": 0,
+  "attack_attempts": 0,
+  "successful_attacks": 0,
+  "corruption_rate": 0.0,
+  "throughput_records_per_second": 145361.99,
+  "average_latency_ms": 1.72,
+  "p95_latency_ms": 1.88,
+  "total_processing_time_ms": 68.79
+}

@@ -1,0 +1,25 @@
+attack:
+  enabled: true
+  probability: 0.2
+  target_workers: []
+  type: WRONG_AGGREGATION
+  wrong_aggregation:
+    offset: 25.0
+    strategy: offset
+experiment:
+  duration_seconds: 60
+  id: exp_wrong_agg_20
+  name: Wrong Aggregation Attack (20%)
+  random_seed: 42
+  records: 10000
+  worker_count: 3
+producer:
+  events_per_second: 500
+  random_seed: 42
+  sensor_count: 5
+  total_events: 10000
+stream:
+  bootstrap_servers: localhost:29092
+  kafka_topic: sensor-stream
+  spark_master: local[*]
+  trigger_interval_ms: 1000

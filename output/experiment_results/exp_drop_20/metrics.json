@@ -1,0 +1,14 @@
+{
+  "experiment_id": "exp_drop_20",
+  "total_input_records": 10000,
+  "total_output_records": 7969,
+  "correct_results": 0,
+  "incorrect_results": 5,
+  "attack_attempts": 2031,
+  "successful_attacks": 2036,
+  "corruption_rate": 1.0,
+  "throughput_records_per_second": 96551.07,
+  "average_latency_ms": 5.43,
+  "p95_latency_ms": 7.31,
+  "total_processing_time_ms": 103.57
+}
